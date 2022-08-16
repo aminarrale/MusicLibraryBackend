@@ -1,0 +1,83 @@
+{
+	"info": {
+		"_postman_id": "896cb299-e9a7-4d0f-a3dd-3597860d312f",
+		"name": "Songs_API",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "21559159"
+	},
+	"item": [
+		{
+			"name": "Get_All_Songs",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		},
+		{
+			"name": "POST",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"url": {
+					"raw": "http://127.0.0.1:8000/api/musiclibrary/",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8000",
+					"path": [
+						"api",
+						"musiclibrary",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get_song_by_id",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://127.0.0.1:8000/api/musiclibrary/2/",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8000",
+					"path": [
+						"api",
+						"musiclibrary",
+						"2",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "PUT(update)",
+			"request": {
+				"method": "PUT",
+				"header": []
+			},
+			"response": []
+		},
+		{
+			"name": "New Request",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		}
+	]
+}
